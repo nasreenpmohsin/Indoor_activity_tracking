@@ -1,0 +1,9 @@
+Results obtained after runing five different localization algorithms on the received BLE data from varying number of (1-4) fixed scanners 
+in a room.
+
+Fixed scanners are attached on walls and scan for data emitted from beacon worn by subject. On receving the data, Fixed scanner then 
+sends the data to gatewy which inturn sends to localization algorithm.
+
+Depending upon the type of algorithm, localization process could time or data driven. 
+The localization algorithm versions 1-4 collect and process packets within given time period. The window size is varied from 3-18s for evaluation pupose.
+The localization algorithm version 5 process the max number of packets (1-11) from any fixed scanners within the room
