@@ -3,9 +3,10 @@ Version 5
 To evluate WLS Optimization
 Technique: Weighted Least Squares Optimization in Multilateration combined with offline clustering scheme
 Author: Nasreen Mohsin
-USAGE= python SFU_Localization_eval_v5.py TX MAX_NUM_pkts offline read_data.txt Position_no. sv save_file.txt
-       python SFU_localization_eval_v5.py TX MAX_NUM_pkts online IP_addr Port  sv save_file.txt
-Eg: python SFU_Localization_eval_v5.py -8 5 offline data_eval_pos2.txt 2  sv eval_v5_pos2.txt
+MAX_NUM_pkts=[1,3,5,7,9,11]
+USAGE= python Localization_eval_v5.py TX MAX_NUM_pkts offline read_data.txt Position_no. sv save_file.txt
+       python Localization_eval_v5.py TX MAX_NUM_pkts online IP_addr Port  sv save_file.txt
+Eg: python Localization_eval_v5.py -8 5 offline data_eval_pos2.txt 2  sv eval_v5_pos2.txt
 '''
 
 import os, sys, time
