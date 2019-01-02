@@ -2,9 +2,10 @@
 Evaluation version 2
 Technique 1: Least Squares estimation through hyperbolic technique using more than 3 sensors
 Author: Nasreen Mohsin
-USAGE= python SFU_Localization_eval_v5.py TX MAX_NUM_pkts offline read_data.txt Position_no. sv save_file.txt
-       python SFU_localization_eval_v5.py TX MAX_NUM_pkts online IP_addr Port  sv save_file.txt
-Eg: python SFU_Localization_eval_v5.py -8 5 offline data_eval_pos2.txt 2  sv eval_v5_pos2.txt
+WDW_SIZE=[3,6,9,12,15,18]
+USAGE= python Localization_eval_v2.py TX WDW_SIZE offline read_data.txt Position_no. sv save_file.txt
+       python Localization_eval_v2.py TX WDW_SIZE online IP_addr Port  sv save_file.txt
+Eg: python SFU_Localization_eval_v2.py -8 6 offline data_eval_pos2.txt 2  sv eval_v5_pos2.txt
 '''
 
 import os, sys, time
